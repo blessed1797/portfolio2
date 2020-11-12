@@ -1,0 +1,141 @@
+body{
+    background-color:rgb(177, 199, 177); 
+    font-family: sans-serif;
+    @media  and {max-width: 1200px;} and {min-width: 768px;}
+        
+    }
+
+}
+
+img {
+    max-width: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: none;
+}
+
+
+
+.option{
+        margin: 10px;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        max-width: 100%;
+        min-width: 100%;
+        flex-wrap: wrap;
+        
+}
+
+.item{
+    background-color: rgb(146, 151, 151);
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    width: 63px;
+    height: 20px;
+    color: white;
+    border: 2px blue ;
+    padding: 0;
+    
+    }
+
+
+
+.name {
+    position: relative;
+    display: flex;
+    
+    
+}
+
+.name .col {
+    position: absolute;
+    width: 60%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 1em;
+    
+}  
+
+
+.jummie_name {
+    font-size: 2rem;
+    color:rgba(116, 156, 96,1);
+}
+.name1{ flex-wrap: wrap;
+
+}
+.about{
+    
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(131, 206, 206);
+    padding: 0px;
+    background-color: rgb(81, 124, 110);
+    
+    
+
+   
+}
+.about h3{
+    text-align: center;
+    margin:0;
+    
+
+}
+.contact{ margin: auto;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(113, 146, 146);
+    padding: 0px;
+    background-color: rgb(81, 124, 110);
+    text-align: center;
+    
+
+}
+#contact-me{
+    margin: 0;
+}
+.feedback{margin: auto;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(160, 202, 202);
+    padding: 0px;
+    background-color:  rgb(81, 124, 110);
+    text-align: center;
+
+}
+#feedback{
+    margin: 0;
+}
+.site-footer{
+    background-color: rgb(196, 181, 181)
+}
+input[type=submit]{
+    background-color:#4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover:{
+    background-color: #45a049;
+}
+input[type=text], textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
